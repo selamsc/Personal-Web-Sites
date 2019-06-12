@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="random.js"></script>
+    <link rel="stylesheet" type="text/css" href="random.css">
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jss.js" </script>
+ 
+
+
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="https://oguzhansezer.azurewebsites.net">Ana Sayfa</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../CV.html">CV</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../hakkında.html">Hakkında</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="KutuOyunu.html">BOX Game</a>
+            </li>
+
+        </ul>
+    </nav>
+
+
+    <style>
+
+
+        p {
+            color: red;
+            text-align: right;
+            font-size: 60px;
+        }
+    </style>
+
+    <div id="space">
+        <img id="image" alt="nisan" src="cv/nisan.png" />
+
+
+    </div>
+
+    <script>
+        $(window).load(function () {
+            var x = e.pageX;
+            var y = e.pageY;
+            $('image').css('margin-left', x);
+            $('image').css('margin-top', y);
+
+
+        }
+            
+            )
+
+
+    </script>
+
+    <p id="demo">0</p>
+
+    <style  type="text/javascript">
+
+
+
+
+
+    </style>
+
+
+
+    <div id="container">
+    </div>
+
+
+    <script>
+        window.onload = function () {
+            createBoxes();
+        }
+
+        function createBoxes() {
+            var left;
+            var top;
+            var colors = ["red", "green", "blue", "purple", "yellow"];
+            // create a for loop and run 99 times;
+            var locat = Math.floor(Math.random() * 50);
+
+
+            left = 70 * (Math.floor(Math.random() * 14));
+            top = 70 * (Math.floor(Math.random() * 6) + 2);
+            var newDiv = document.createElement("div");
+            newDiv.classList.add('box')
+            newDiv.style.backgroundColor = colors[Math.floor(Math.random() * 5)];
+            newDiv.style.top = top + 'px';
+            newDiv.style.left = left + 'px';
+            // now add the event on this one;
+            newDiv.addEventListener('click', removeBoxes);
+            newDiv.addEventListener('click', createBoxes);
+            newDiv.addEventListener('click', CounterF);
+            $("#container").append(newDiv);
+
+
+        }
+
+
+        function removeBoxes() {
+
+            $(this).remove();
+        }
+        $p = document.querySelector('p');
+        function CounterF() {
+
+            $p.innerHTML++;
+        }
+
+        $('div.box').on('click', CounterF);
+        $('div.box').on('click', removeBoxes);
+    </script>
+
+</body>
+</html>

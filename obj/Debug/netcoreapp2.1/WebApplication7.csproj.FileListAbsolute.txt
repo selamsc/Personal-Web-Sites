@@ -1,0 +1,14 @@
+C:\Users\Oğuzhan\source\repos\WebApplication7\WebApplication7\bin\Debug\netcoreapp2.1\WebApplication7.deps.json
+C:\Users\Oğuzhan\source\repos\WebApplication7\WebApplication7\bin\Debug\netcoreapp2.1\WebApplication7.runtimeconfig.json
+C:\Users\Oğuzhan\source\repos\WebApplication7\WebApplication7\bin\Debug\netcoreapp2.1\WebApplication7.runtimeconfig.dev.json
+C:\Users\Oğuzhan\source\repos\WebApplication7\WebApplication7\bin\Debug\netcoreapp2.1\WebApplication7.dll
+C:\Users\Oğuzhan\source\repos\WebApplication7\WebApplication7\bin\Debug\netcoreapp2.1\WebApplication7.pdb
+C:\Users\Oğuzhan\source\repos\WebApplication7\WebApplication7\obj\Debug\netcoreapp2.1\WebApplication7.csproj.CoreCompileInputs.cache
+C:\Users\Oğuzhan\source\repos\WebApplication7\WebApplication7\obj\Debug\netcoreapp2.1\WebApplication7.RazorAssemblyInfo.cache
+C:\Users\Oğuzhan\source\repos\WebApplication7\WebApplication7\obj\Debug\netcoreapp2.1\WebApplication7.RazorAssemblyInfo.cs
+C:\Users\Oğuzhan\source\repos\WebApplication7\WebApplication7\obj\Debug\netcoreapp2.1\WebApplication7.AssemblyInfoInputs.cache
+C:\Users\Oğuzhan\source\repos\WebApplication7\WebApplication7\obj\Debug\netcoreapp2.1\WebApplication7.AssemblyInfo.cs
+C:\Users\Oğuzhan\source\repos\WebApplication7\WebApplication7\obj\Debug\netcoreapp2.1\WebApplication7.RazorTargetAssemblyInfo.cache
+C:\Users\Oğuzhan\source\repos\WebApplication7\WebApplication7\obj\Debug\netcoreapp2.1\WebApplication7.dll
+C:\Users\Oğuzhan\source\repos\WebApplication7\WebApplication7\obj\Debug\netcoreapp2.1\WebApplication7.pdb
+C:\Users\Oğuzhan\source\repos\WebApplication7\WebApplication7\obj\Debug\netcoreapp2.1\WebApplication7.csprojAssemblyReference.cache

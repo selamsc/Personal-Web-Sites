@@ -1,0 +1,16 @@
+﻿#container {
+ //   min-height: 250px;
+//}
+
+
+div.box {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(100, 100, 255);
+    border: solid 2px black;
+    display: inline-block;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+
